@@ -14,14 +14,14 @@ $ npm run build
   
 Put in correct environment variable, the database credential and OpenAI API key  
 
-OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxx
-DB_CONNECTION=mysql
-DB_HOST=
-DB_PORT=
-DB_DATABASE=
-DB_USERNAME=
-DB_PASSWORD=
-  
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxx  
+DB_CONNECTION=mysql  
+DB_HOST=  
+DB_PORT=  
+DB_DATABASE=  
+DB_USERNAME=  
+DB_PASSWORD=  
+    
 migration schema to MySQL database  
 $ php artisan migrate  
 
